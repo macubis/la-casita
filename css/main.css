@@ -1,0 +1,99 @@
+*{
+	width: 1200px;
+	height: 800px;
+	margin: 0;
+	padding: 10px;
+}
+.paisaje{
+	width: 1000px;
+	height: 1000px;
+	margin: 0;
+	padding: 20px;
+	position: relative;
+
+}
+#sol{
+	width: 50px;
+	height: 50px;
+	background: yellow;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	position:relative;
+	top:30px;
+	left: 30px;
+}
+.paisaje #base{
+	width: 400px;
+	height: 200px;
+	background-color: brown;
+	position: absolute;
+	top:400px;
+	left: :100px;
+}
+#base .puerta{
+	width: 140px;
+	height:120px;
+	background-color: gray;
+	position: relative;
+	top: 70px;
+	left: 20px;
+}
+#base .ventana{
+   width: 50px; 
+   height:50px; 
+   background: pink; 
+   position: absolute;
+   top: 50px;
+   left: 300px;
+}
+.puerta .heart{
+	position: relative;
+}
+.heart:before, .heart:after {
+   position: absolute;
+   content: "";
+   left: 70px; top: 0;
+   width: 70px;
+   height: 115px;
+   background: red;
+   -moz-border-radius: 50px 50px 0 0;
+   border-radius: 50px 50px 0 0;
+   -webkit-transform: rotate(-45deg);
+   -moz-transform: rotate(-45deg);
+   -ms-transform: rotate(-45deg);
+   -o-transform: rotate(-45deg);
+   transform: rotate(-45deg);
+   -webkit-transform-origin: 0 100%;
+   -moz-transform-origin: 0 100%;
+   -ms-transform-origin: 0 100%;
+   -o-transform-origin: 0 100%;
+   transform-origin: 0 100%;
+}
+.heart:after { 
+left: 0; 
+   -webkit-transform: rotate(45deg); 
+   -moz-transform: rotate(45deg); 
+   -ms-transform: rotate(45deg); 
+   -o-transform: rotate(45deg);
+   transform: rotate(45deg);
+   -webkit-transform-origin: 100% 100%;
+   -moz-transform-origin: 100% 100%;
+   -ms-transform-origin: 100% 100%;
+   -o-transform-origin: 100% 100%;
+   transform-origin :100% 100%;
+}
+
+
+
+
+/* Cleaner, but slightly less support: ue "50%" as value */
+					
+
+#rectangle {
+	width: 200px;
+	height: 100px;
+	background: red;
+}
+
+			
