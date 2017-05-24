@@ -1,15 +1,14 @@
 *{
-	width: 1200px;
-	height: 800px;
 	margin: 0;
-	padding: 10px;
+	width: 100%;
+	height: 800px;
 }
 .paisaje{
 	width: 1000px;
 	height: 1000px;
 	margin: 0;
 	padding: 20px;
-	position: relative;
+	position: absolute;
 
 }
 #sol{
@@ -28,8 +27,8 @@
 	height: 200px;
 	background-color: brown;
 	position: absolute;
-	top:400px;
-	left: :100px;
+	top:352px;
+	right: -51px;
 }
 #base .puerta{
 	width: 140px;
@@ -83,8 +82,51 @@ left: 0;
    -o-transform-origin: 100% 100%;
    transform-origin :100% 100%;
 }
+#techo{
+    width: 300px;
+    height: 2px;
+    border-right: 60px solid transparent;
+    border-left: 60px solid transparent;
+    border-bottom: 100px solid black;
+    position: relative;
+    left: 658px;
+    top:184px;
+}
+#chimenea{
+   width: 20px;
+   height: 40px;
+   background: red;
+   position: relative;
+   left: 230px;
+   top: -13px;
+}
+#burbuja1{
+	border-radius:71%;
+	width: 44px;
+	height: 43px;
+	background: grey;
+	position: relative;
+	left: 246px;
+	top:-151px;
+}
+#burbuja{
+	border-radius:71%;
+	width: 44px;
+	height: 43px;
+	background: grey;
+	position: relative;
+	left: 246px;
+	top:-151px;
 
-
+}
+.pasto{
+   width: 1300px;
+   height: 140px;
+   background: green;
+   position: relative;
+   bottom: -371px;
+}
+}
 
 
 /* Cleaner, but slightly less support: ue "50%" as value */
